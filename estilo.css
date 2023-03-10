@@ -1,0 +1,106 @@
+p{
+    font-weight: 800;
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.noche{
+    background: black;
+    color: #777;
+    width: 100%;
+    height: 100vh;
+}
+
+img{
+    width: 100px;
+}
+
+#creditos{
+    width: 300px;
+    height: 300px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+     position:fixed;
+    margin: 0 auto;
+    background: #00acee;
+    padding: 40px;
+    text-align: center;
+    display: none;
+}
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh; 
+}
+.toggle-btn {
+    width: 80px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 30px;
+    padding: 5px;
+    transition: all .3s ease-in-out;
+}
+.toggle-btn > .inner-circle {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+}
+.toggle-btn.active {
+    background-color: #00acee;
+}
+.toggle-btn.active > .inner-circle {
+    margin-left: 40px;
+}
+
+/* :root {
+    --color-green: #00a878;
+    --color-red: #fe5e41;
+    --color-button: #fdffff;
+    --color-black: #000;
+}
+.switch-button {
+    display: inline-block;
+}
+.switch-button .switch-button__checkbox {
+    display: none;
+}
+.switch-button .switch-button__label {
+    background-color: var(--color-red);
+    width: 5rem;
+    height: 3rem;
+    border-radius: 3rem;
+    display: inline-block;
+    position: relative;
+}
+.switch-button .switch-button__label:before {
+    transition: .2s;
+    display: block;
+    position: absolute;
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-button);
+    content: '';
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 1px var(--color-black);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label {
+    background-color: var(--color-green);
+}
+.switch-button .switch-button__checkbox:checked + .switch-button__label:before {
+    transform: translateX(2rem);
+} */
